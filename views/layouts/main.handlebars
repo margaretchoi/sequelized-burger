@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+		<title>Eat All Da Burgers</title>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="shadow1">
+			    <h1 id="page-header">Eat-Da-Burger!</h1>
+			</nav>
+			{{{ body }}}			
+	</body>
+
+<script type="text/javascript">
+	$('input').on('focusin', function() {
+	  $(this).parent().find('label').addClass('active');
+	});
+
+	$('input').on('focusout', function() {
+	  if (!this.value) {
+	    $(this).parent().find('label').removeClass('active');
+	  }
+	});
+</script>
+</html>
