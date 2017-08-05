@@ -8,12 +8,9 @@ module.exports = function(app) {
   // HTML Routes
   app.get("/", function(req, res) {
   	db.Burger.findAll({}).then(function(data) {
-  	  console.log(data);
-
       let burgerObj = {
           burgers:data //data is a array of objects
       };
-      console.log("Burger object", burgerObj);
   	  res.render("index", burgerObj);
   	});
   });
