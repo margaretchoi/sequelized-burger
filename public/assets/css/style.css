@@ -113,11 +113,10 @@ button:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;	
-
-/*	animation-name: parallaxBack;
+	animation-name: parallaxBack;
 	animation-duration: 3s;
 	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;*/
+	animation-fill-mode: forwards;
 }
 
 @keyframes parallaxBack {
