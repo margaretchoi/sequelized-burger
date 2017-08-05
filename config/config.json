@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "&&iH6I>(ashT",
+    "database": "burgers_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "lxpo43i2cnkx5ofu ",
+    "password": "pc9jkekz3128le7s",
+    "database": "burgers_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
